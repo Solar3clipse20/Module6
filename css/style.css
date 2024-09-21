@@ -1,0 +1,238 @@
+/*#F8F9FA - Seasalt
+  #051923 - Rich Black
+  #E7D3FF - Periwinkle
+  #CB7EFF - Heliotrope
+  #808080 - Grey */
+
+  /*GLOBAL STYLES
+  ----------------------------------------*/
+  html {
+    box-sizing: border-box;
+    font-size: 65.5%;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    background: #F2FFFF;
+    margin: 0;
+    font-family: "Nunito", system-ui;
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  h1, h2, h3{
+    font-family: "Lora", serif;
+    font-weight: 500;
+    margin: 0;
+  }
+  h1{
+    line-height: 90px;
+    margin-left: -50px;
+    margin-top: -40px;
+    font-size: 92px;
+    padding: 80px 50px;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    color: #6a6a6a;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+  }
+  h2{
+    font-size: 3.6rem;
+  }
+  h3{
+    font-size: 2.4rem;
+  }
+
+  /*links*/
+  nav a{
+    color: #E7D3FF
+  }
+
+  nav a:hover{
+    color: #CB7EFF;
+  }
+  
+  a{
+    color: #CB7EFF;
+  }
+
+  a:hover{
+    color: #E7D3FF;
+    text-decoration: none;
+  }
+
+  footer a{
+    color: #E7D3FF
+  }
+
+  footer a:hover{
+    color: #CB7EFF;
+  }
+
+  .btn{
+    background: #051923;
+    color: #E7D3FF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    line-height: 1;
+    border-radius: 4px;
+  }
+
+  /*GLOBAL STYLES END
+  ---------------------------------------*/
+
+
+  /*HOME
+  ---------------------------------------*/
+  .home{
+    background: url(../images/sharon-mccutcheon-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home .content-wrapper{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+    flex: 1 0 auto;
+  }
+
+  .content-bg{
+    background: rgb(255 255 255 / 60%);
+    padding: 30px;
+  }
+
+  .section-styles{
+    margin-bottom: 50px;
+  }
+
+  .section-styles h2{
+    border-bottom: 2px solid #808080;
+    padding: 3px;
+    margin-bottom: 10px;
+  }
+
+  nav{
+    background: #051923;
+    color: #F8F9FA;
+    padding: 5px 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18pt;
+  }
+
+  nav ul li{
+    display: inline;
+    margin: 20px;
+  }
+
+  .download-link{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    font-size: 1.5rem;
+  }
+
+  /*Profile*/
+  .header-content{
+    margin-bottom: 90px;
+  }
+  header::before{
+    background: url(../images/annie-spratt-unsplash.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 300px;
+  }
+
+  
+  /*Projects*/
+
+  .project-item{
+    display: flow-root;
+    margin: 30px 0;
+  }
+  .project-item img{
+    float: left;
+    margin-right: 20px;
+  }
+
+  /*Work Experience*/
+  .work-item{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
+    margin: 30px 0;
+  }
+  .work-details p{
+    margin: 0;
+  }
+  .work-summary p:first-child{
+    margin-top: 0;
+  }
+
+
+  /*Education*/
+  .education-item{
+    margin: 30px 0;
+  }
+  .education-item p{
+    margin: 0;
+  }
+
+
+  /*HOME END
+  ---------------------------------------*/
+
+
+
+  /*FOOTER
+  ---------------------------------------*/
+  footer{
+    background: #051923;
+    color: #F8F9FA;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+  }
+  .socials{
+    list-style-type: none;
+    padding: 0;
+  }
+  .socials li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  /*FOOTER END
+  ---------------------------------------*/
